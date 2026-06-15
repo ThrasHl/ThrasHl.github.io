@@ -299,6 +299,23 @@ p {
   box-shadow: 0 12px 34px rgba(23, 32, 51, 0.05);
 }
 
+.project h3 a {
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.project h3 a:hover {
+  color: var(--accent);
+}
+
+.project-meta {
+  display: inline-flex;
+  margin-top: 8px;
+  color: var(--accent-dark);
+  font-size: 0.86rem;
+  font-weight: 760;
+}
+
 .timeline {
   display: grid;
 }

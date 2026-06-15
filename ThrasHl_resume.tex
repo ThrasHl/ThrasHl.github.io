@@ -1,0 +1,96 @@
+\documentclass[11pt,a4paper]{article}
+
+%----------------------------------------------------------------------------------------
+% PACKAGES
+% Template style adapted from the MBZUAI Resume Template by MBZUAI Library
+% License: Creative Commons CC BY 4.0
+%----------------------------------------------------------------------------------------
+\usepackage[left=0.8in,top=0.8in,right=0.8in,bottom=0.8in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[default]{sourcesanspro}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{parskip}
+\usepackage[hidelinks]{hyperref}
+
+%----------------------------------------------------------------------------------------
+% COLORS & STYLES
+%----------------------------------------------------------------------------------------
+\definecolor{titleblue}{HTML}{00199e}
+\definecolor{subtitleblue}{HTML}{2ec1e0}
+\definecolor{darktext}{HTML}{222222}
+
+\color{darktext}
+\linespread{0.9}
+\setlength{\parskip}{0.1em}
+\titleformat{\section}{\Large\bfseries\color{titleblue}}{}{0em}{}
+\titlespacing*{\section}{0pt}{0.7em}{0.15em}
+
+\newcommand{\blueitem}[1]{\textcolor{subtitleblue}{\textbf{#1}}}
+
+\setlist[itemize]{label=\textbullet, leftmargin=*, noitemsep, topsep=0pt, parsep=0pt}
+
+%----------------------------------------------------------------------------------------
+% DOCUMENT CONTENT
+%----------------------------------------------------------------------------------------
+\begin{document}
+
+%--- HEADER ---
+{\Huge \textbf{\textcolor{titleblue}{Pengyi Chen}}} \vspace{0.2em}
+
+Shanghai, China \\
+Email: \href{mailto:lotus_thrash@sjtu.edu.cn}{lotus\_thrash@sjtu.edu.cn} \\
+Gmail: \href{mailto:lotusthrash@gmail.com}{lotusthrash@gmail.com} \\
+QQ Mail: \href{mailto:571881662@qq.com}{571881662@qq.com} \\
+GitHub: \href{https://github.com/ThrasHl}{github.com/ThrasHl}
+
+\vspace{0.4em}
+
+%--- EDUCATION ---
+\section*{Education}
+\blueitem{Sep. 2023 -- Present: B.Eng. in Artificial Intelligence} \\
+\textit{Shanghai Jiao Tong University, Shanghai, China}
+
+\vspace{0.2em}
+Average GPA: 3.6/4.3 \\
+Rank: 63/98
+
+%--- HONORS ---
+\section*{Honors}
+\blueitem{2023 -- 2024: \href{https://zhiyuan.sjtu.edu.cn/}{Zhiyuan Honors Program}} \\
+Selected honors program at Shanghai Jiao Tong University.
+
+\vspace{0.2em}
+\blueitem{2023 -- 2024: Zhiyuan Honors Scholarship} \\
+Scholarship recognition during undergraduate study.
+
+%--- INTERNSHIP ---
+\section*{Internship}
+\blueitem{2025 -- Present: Research Intern} \\
+\textit{\href{https://cvl.sjtu.edu.cn/}{SJTU CVL Lab}}
+\begin{itemize}
+    \item Explored computer vision fundamentals through research practice.
+    \item Participated in research on wafer edge detection and defect detection.
+    \item Studied vision-based inspection scenarios related to wafer manufacturing data.
+\end{itemize}
+
+%--- RESEARCH INTERESTS ---
+\section*{Research Interests}
+\blueitem{Current Focus:} Computer Vision \\
+\blueitem{Broader Interests:} Agents, Large Language Models, and interdisciplinary AI applications.
+
+%--- SKILLS ---
+\section*{Skills}
+\begin{itemize}
+    \item \textbf{Programming Languages:} Python, C++
+    \item \textbf{Tools:} Git, Jupyter, LaTeX
+    \item \textbf{Agents:} Codex, Trae
+    \item \textbf{Languages:} English (Fluent), Chinese (Native)
+\end{itemize}
+
+%--- PROJECTS ---
+\section*{Projects}
+
+\end{document}

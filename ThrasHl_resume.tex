@@ -1,0 +1,152 @@
+\documentclass[10pt,a4paper]{article}
+
+%----------------------------------------------------------------------------------------
+% PACKAGES
+%----------------------------------------------------------------------------------------
+\usepackage[left=0.7in,top=0.6in,right=0.7in,bottom=0.6in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[default]{sourcesanspro}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{parskip}
+\usepackage{hyperref}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=black,
+  urlcolor=black,
+  citecolor=black
+}
+
+%----------------------------------------------------------------------------------------
+% COLORS & STYLES
+%----------------------------------------------------------------------------------------
+\definecolor{titleblue}{HTML}{00199e}
+\definecolor{subtitleblue}{HTML}{2ec1e0}
+\definecolor{darktext}{HTML}{222222}
+
+\color{darktext}
+\linespread{0.9}
+\setlength{\parskip}{0.1em}
+
+\titleformat{\section}{\Large\bfseries\color{titleblue}}{}{0em}{}
+\titlespacing*{\section}{0pt}{0.55em}{0.15em}
+
+\newcommand{\blueitem}[1]{\textcolor{subtitleblue}{\textbf{#1}}}
+
+\setlist[itemize]{label=\textbullet, leftmargin=*, noitemsep, topsep=0pt, parsep=0pt}
+
+%----------------------------------------------------------------------------------------
+% DOCUMENT CONTENT
+%----------------------------------------------------------------------------------------
+\begin{document}
+
+%--- HEADER ---
+{\Huge\textbf{\textcolor{titleblue}{Pengyi Chen}}} \vspace{0.2em}
+
+Shanghai, China \\
+Email: lotus\_thrash@sjtu.edu.cn \\
+Gmail: lotusthrash@gmail.com \\
+QQ Mail: 571881662@qq.com \\
+GitHub: \href{https://github.com/ThrasHl}{github.com/ThrasHl}
+
+\vspace{0.4em}
+
+%--- EDUCATION ---
+\section*{Education}
+
+\blueitem{Sep. 2023 - Present: B.Eng. in Artificial Intelligence} \\
+\textit{Shanghai Jiao Tong University, Shanghai, China} \\
+\textbf{Average GPA:} 3.6/4.3 \\
+\textbf{Rank:} 63/98
+
+\vspace{0.3em}
+
+%--- HONORS ---
+\section*{Honors}
+
+\blueitem{2023 - 2024: Zhiyuan Honors Program} \\
+Selected honors program at Shanghai Jiao Tong University.
+
+\vspace{0.3em}
+
+\blueitem{2023 - 2024: Zhiyuan Honors Scholarship} \\
+Scholarship recognition during undergraduate study.
+
+\vspace{0.3em}
+
+%--- INTERNSHIP ---
+\section*{Internship}
+
+\blueitem{2025 - Present: Research Intern} \\
+\href{https://cvl.sjtu.edu.cn/}{\textit{SJTU CVL Lab}} \\
+
+\blueitem{2025}
+\begin{itemize}
+    \item Explored computer vision fundamentals through research practice.
+    \item Participated in research on wafer edge detection and defect detection.
+    \item Studied vision-based inspection scenarios related to wafer manufacturing data.
+\end{itemize}
+
+\blueitem{2026}
+\begin{itemize}
+    \item Reproduced ViTPose++ and ViTPose pipelines for occluded human and 21-keypoint hand pose estimation.
+    \item Participated in building an automatic and interactive multi-camera hand-marker annotation tool and used it to annotate over 90k images.
+\end{itemize}
+
+\vspace{0.3em}
+
+%--- RESEARCH INTERESTS ---
+\section*{Research Interests}
+
+\textbf{Current Focus:} Computer Vision \\
+\textbf{Broader Interests:} Agents, Large Language Models, and interdisciplinary AI applications.
+
+\vspace{0.3em}
+
+%--- SKILLS ---
+\section*{Skills}
+
+\textbf{Programming Languages:} Python, C++ \\
+\textbf{Tools:} Git, Jupyter, LaTeX \\
+\textbf{Agents:} Codex, Trae \\
+\textbf{Languages:} English (Fluent), Chinese (Native)
+
+\vspace{0.3em}
+
+%--- PROJECTS ---
+\section*{Projects}
+
+\href{http://mycstv.cn}{\blueitem{Mianyang CS Web}} \\
+\textit{Web Platform / Tournament Management}
+\begin{itemize}
+    \item Contributed to building a platform that integrates tournament management and the player ecosystem for Mianyang Counter-Strike competitions.
+\end{itemize}
+
+\vspace{0.3em}
+
+\href{https://github.com/ThrasHl/rag-teaching-assistant}{\blueitem{RAG Teaching Assistant}} \\
+\textit{Python / RAG / LLM}
+\begin{itemize}
+    \item Built a Python project exploring retrieval-augmented generation for teaching assistant scenarios.
+\end{itemize}
+
+\vspace{0.3em}
+
+\href{https://github.com/ThrasHl/movielens-hybrid-recommender}{\blueitem{MovieLens Hybrid Recommender}} \\
+\textit{Python / Recommender Systems}
+\begin{itemize}
+    \item Developed a recommender-system project based on the MovieLens dataset and hybrid recommendation methods.
+\end{itemize}
+
+\vspace{0.3em}
+
+\href{https://github.com/ThrasHl/deep-rl-atari-mujoco}{\blueitem{Deep RL Atari MuJoCo}} \\
+\textit{Python / Deep Reinforcement Learning}
+\begin{itemize}
+    \item Implemented a repository for deep reinforcement learning experiments in Atari and MuJoCo environments.
+\end{itemize}
+
+\end{document}

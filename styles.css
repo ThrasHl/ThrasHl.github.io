@@ -211,6 +211,10 @@ h3 {
   letter-spacing: 0;
 }
 
+h4 {
+  margin-top: 0;
+}
+
 p {
   color: var(--body);
 }
@@ -336,6 +340,26 @@ p {
   color: var(--warm);
   font-size: 0.94rem;
   font-weight: 850;
+}
+
+.internship-year {
+  margin-top: 18px;
+  margin-bottom: 8px;
+  color: var(--accent-dark);
+  font-size: 0.94rem;
+  line-height: 1.35;
+}
+
+.experience-list {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+  padding-left: 1.2rem;
+  color: var(--body);
+}
+
+.experience-list li::marker {
+  color: var(--accent);
 }
 
 .timeline-item p:last-child,
